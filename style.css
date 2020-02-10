@@ -1,0 +1,271 @@
+
+@font-face {
+    font-family: "HelveticaNeueWorld-75Bold";
+    src: url("./fonts/helveticaneuebold.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/helveticaneuebold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/helveticaneuebold.otf") format("opentype"), /* Open Type Font */
+      url("./fonts/helveticaneuebold.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/helveticaneuebold.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/helveticaneuebold.woff") format("woff"), /* Modern Browsers */
+      url("./fonts/helveticaneuebold.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "HelveticaNeueWorld-45Lt";
+    src: url("./fonts/helveticaneuelight.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/helveticaneuelight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/helveticaneuelight.otf") format("opentype"), /* Open Type Font */
+      url("./fonts/helveticaneuelight.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/helveticaneuelight.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/helveticaneuelight.woff") format("woff"), /* Modern Browsers */
+      url("./fonts/helveticaneuelight.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+  body, ul{
+    margin:0;
+    padding:0;
+}
+header{
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.yursasmeni{
+    margin-left: 150px;
+}
+
+p {
+    font-family: "HelveticaNeueWorld-45Lt";
+}
+
+header ul {
+    list-style: none;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a, .damateba{
+    text-decoration: none;
+}
+header ul li:first-child {
+    padding: 0 24px;
+   
+}
+
+header ul li:last-child {
+    padding-left: 24px;
+}
+
+header ul li a{
+    font-size: 16px;
+    color: #333333;
+    font-family: "HelveticaNeueWorld-45Lt";
+    font-size: 18px;
+}
+.min-header {
+    font-size: 16px;
+}
+
+    
+
+
+header ul li a:hover .hover{ 
+    display:block;
+
+}
+.hover{
+    width: 51px;
+    height: 3px;
+    background: #4D4D4D;
+    display: block;
+    margin-top: 10px;
+    margin-left: -16px;
+   display: none;
+ 
+}
+.container{
+    padding: 0 200px;
+}
+.header-block{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 80px;
+    font-family: "HelveticaNeueWorld-75Bold";
+    
+    font-weight: bold;
+    margin: 0 0 50px 0;
+    color: #4D4D4D;
+}
+h2{
+    font-size: 24px;
+    font-family: "HelveticaNeueWorld-75Bold";
+    color: #4D4D4D;
+
+}
+
+h3{
+    font-size: 32px;
+    font-family: "HelveticaNeueWorld-75Bold";
+    color: #4D4D4D;
+}
+.header-block p{
+    font-size: 24px;
+    font-family: "HelveticaNeueWorld-45Lt";
+    
+    
+    width: 600px;
+    color: #4D4D4D;
+}
+.damateba {
+    display: inline-block;
+    background-color: #F1F1F1;
+    padding: 25px 65px;
+    color: #333333;
+    margin-top: 33px;
+    font-family: "HelveticaNeueWorld-45Lt";
+    font-size: 18px;
+}
+.damateba:hover {
+    background-color: #333333;
+    color: #fff;
+
+}
+.block2{
+    width: 480px;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-style: bold;
+    color: #4D4D4D;
+}
+.block {
+    width: 480px;
+
+height: 470px;
+display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+.block-row {
+    width: 480px;
+flex-direction: column;
+height: 470px;
+display: flex;
+
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+.products {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.article1 {
+    position: relative;
+}
+.article1 p {
+    position: absolute;
+    top:30px;
+    left: 30px;
+    font-size: 23px;
+    color: #fff;
+}
+.article1 span {
+    position: absolute;
+    bottom:30px;
+    left: 30px;
+    font-size: 40px;
+    background: #fff;
+    padding: 0 18px 8px ;
+    font-family: "HelveticaNeueWorld-75Bold";
+    color: #4D4D4D;
+
+
+}
+.div-height {
+    min-height: 360px;
+}
+
+.blog{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    width: 100%;
+   
+}
+
+footer {
+    background-color: #F2F2F2;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    height: 330px;
+    box-sizing: border-box;
+}
+h2 {
+    margin: 0;
+}
+p {
+    color: #4D4D4D;
+    margin: 0;
+} 
+
+footer ul li a {
+    color: #4D4D4D;
+    font-size: 17px;
+    font-family: "HelveticaNeueWorld-45Lt";
+}
+.footer-ul {
+    width: 360px;
+    background-repeat: no-repeat;
+    background-image: url(./assets/logo-footer.png);
+    padding-left: 150px;
+  
+   
+}
+
+
+li {
+    list-style-type: none;
+}
+.icons-block{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-family:"HelveticaNeueWorld-75Bold"; 
+    font-size: 18;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 1220px) {
+    .header-block {
+        flex-direction: column;
+  }
+  .left-block {
+      margin-bottom: 50px;
+  }
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    footer {
+flex-direction: column;
+    }
+
+
+    .products{
+        margin-top: 145px;
+    }
+}
